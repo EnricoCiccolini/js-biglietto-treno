@@ -29,7 +29,7 @@ if (isNaN(age) || isNaN(kilometer)){
     }
     // calcolo sconto 
 
-    disocount = (0.21 * disocount)/100
+    disocount = (0,21 * disocount)/100
 
     price = (kilometer * 0.21 ) - disocount
     price = price.toFixed(2)
