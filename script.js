@@ -1,7 +1,7 @@
 // dichiarazione variabili
 let age
 let kilometer
-let disocount = 0
+let discount = 0
 let price
 
 // assegnazioni dei valori dell utente 
@@ -22,19 +22,19 @@ if (isNaN(age) || isNaN(kilometer)){
     // controlli eta per lo sconto 
 } else {
     if (age <= 18){
-        disocount = 20
+        discount = 20
     }
-    else if (age >= 60) {
-        disocount = 40
+    else if (age >= 65) {
+        discount = 40
     }
     // calcolo sconto 
 
-    disocount = (0,21 * disocount)/100
+    discount = (0,21 * discount)/100
 
-    price = (kilometer * 0.21 ) - disocount
+    price = (kilometer * 0,21 ) - discount
     price = price.toFixed(2)
 
     // dichiarazione prezzo totale 
-   console.log (`il totale del tuo viaggio  ${ price} euro`) 
+   console.log (`il totale del tuo viaggio € ${ price} euro`) 
 }
 
