@@ -16,8 +16,8 @@ kilometer = parseInt(kilometer)
 
 // controlli 
 
-if (age === NaN || kilometer === NaN){
-    console.log -( "età o kilometri non validi per favore inserire un numero valido")
+if (isNaN(age) || isNaN(kilometer)){
+    console.log ( "età o kilometri non validi per favore inserire un numero valido")
 
     // controlli eta per lo sconto 
 } else {
